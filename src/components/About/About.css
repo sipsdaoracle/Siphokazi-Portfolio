@@ -1,0 +1,241 @@
+.About{
+    width: 100vw;
+    height: auto;
+    background-color: #23262B;
+    background-image: url(../../assets/bg.png);
+    background-size: 50% 50%; /* Adjust the percentage values as needed */
+  background-repeat: no-repeat;
+  background-position: bottom right; /* Center the background image */
+  overflow-y: hidden;
+}
+
+.about-info{
+    max-width: 86%;
+    height: auto;
+    background-color: #1D1E24;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    position: relative;
+    top: 30%;
+    border: 8px solid #23262b;
+    bottom: 2%;
+}
+.about-head{
+    color: white;
+    font-size: 1.7rem;
+    font-family: 'Inter', sans-serif;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.about-text{
+    text-align: left;
+    color: rgb(176, 175, 175);
+    font-size: 0.8rem;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.about-head-2{
+    color: white;
+    font-size: 1.7rem;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+.skills{
+    width: 90%;
+    display: flex ;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.skill-head{
+    color: white;
+    font-size: 1rem;
+}
+
+.skill{
+    width: 100%;
+    border: 1px gray solid;
+    width: auto;
+    height: 180px;
+    border-radius: 10px;
+    margin-top: 50px;
+    height: auto;
+}
+
+.devops-icon{
+    width: 54px;
+    margin-left: 40%;
+    margin-top: 14px;
+}
+
+.skill-text{
+    color: rgb(176, 175, 175);
+    font-size: 0.8rem;
+    text-align: center;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 463px) { 
+    .about-info{
+        height: auto;
+        position: relative;
+        margin-top:200%
+        
+    }
+
+    .about{
+        height: auto;
+        display: flex;
+        padding-top: 100%;
+    }
+
+    .devops-icon{
+        margin-left:40%;
+    }
+    }
+
+    /* mobile styles */
+
+    @media (min-width: 576px) and (max-width: 767.98px) {
+
+    .about-text{
+        font-size: 1rem;
+    }
+    
+    .devops-icon{
+        width: 54px;
+        margin-left: 42%;
+        margin-top: 14px;
+    }
+
+    .skill{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+  }
+
+  /* tablet styles */
+
+  @media (min-width: 768px) and (max-width: 991.98px) { 
+    .about-text{
+        font-size: 1.2rem;
+    }
+
+    .about-head{
+        font-size: 3rem;
+    }
+
+    .about-info{
+        top: 32%;
+    }
+    
+    .devops-icon{
+        width: 54px;
+        margin-left: 44%;
+        margin-top: 12px;
+    }
+
+    .skill{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .skill-text {
+        font-size: 1.1rem;
+    }
+
+    .skill-text span{
+        font-size: 1.3rem;
+    }
+   }
+
+   /* laptop and large screens */
+
+   @media (min-width: 992px){
+    .about-info {
+        
+        border: 8px solid #23262b;
+        bottom: 2%;
+        max-width: 82%;
+        height: auto;
+        margin-top: 30%;
+      }
+
+      .about-head{
+        margin-left: 5%;
+        color: rgb(176, 175, 175);
+  
+      }
+
+      .about-head-2{
+        margin-left: 5%;
+        color: rgb(176, 175, 175);
+      }
+
+      .about-text{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      
+      .about-info h1 {
+        font-size: 3rem;
+      }
+      
+      .about-info p {
+        font-size: 1.2rem;
+      }
+      
+      .devops-icon {
+        width: 54px;
+        margin-left: 40%;
+        margin-top: 12px;
+      }
+      
+      .skills {
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap; /* Allow skills to wrap to the next line */
+        justify-content: space-around;
+        row-gap: 30px;
+        
+      }
+      
+      .skill {
+        width:45%; /* Set each skill to occupy about 40% of the parent */
+        box-sizing: border-box; /* Include padding and border in the total width */
+        border: 1px gray solid;
+        border-radius: 10px;
+        margin-top: 20px; /* Adjust as needed */
+        margin-right: auto;
+      }
+      
+      .skill img {
+        width: 20%; /* Make the image fill the entire width of the skill div */
+      }
+      
+      .skill-text {
+        margin-top: 10px;
+        font-size: 0.9rem;
+      }
+      
+      .skill-head {
+        font-weight: bold;
+        font-size: 1.4rem;
+      }
+      
+
+   }
+  

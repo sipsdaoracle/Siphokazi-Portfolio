@@ -1,0 +1,430 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+   
+}
+
+.title{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.profile {
+    width: 100vw;
+    height: 110vh; 
+    position: absolute;
+    background-color: #23262B;
+    top:7%; 
+    background-image: url(../../assets/bg.png);
+    background-size: 50% 50%; /* Adjust the percentage values as needed */
+  background-repeat: no-repeat;
+  background-position: top left; /* Center the background image */
+}
+
+.profile-img-container{
+    width: 150px;
+    height: 138.56px;;
+    border-radius: 60px ;
+    background-color: #1D1E24;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    border: 8px solid #23262b;
+    box-shadow: -4px 8px 20px rgba(0,0,0,.07);
+    z-index: 1;
+    top: 20px;
+}
+
+
+.profile-img{
+    position: relative;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    top: 10%;
+    background-image: url(/src/assets/siphokazi.jpeg);
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.profile-info{
+    max-width: 80%;
+    height: 400px;
+    background-color: #1D1E24;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    position: relative;
+    border: 8px solid #23262b;
+}
+
+.profile-info h4{
+    color: white;
+    text-align: center;
+    padding-top: 25px;
+    font-size: 1.4rem;
+}
+
+.profile-info span{
+    font-weight: normal;
+}
+
+.name-bio{
+    height: 5px;
+}
+
+.profile-info p{
+    color: rgb(176, 175, 175);
+    text-align: center;
+    font-size: 1rem;
+}
+
+.social-icon{
+    color: rgb(176, 175, 175); 
+}
+
+.social-icon:hover{
+    color: rgb(124, 57, 124)
+}
+
+.social-icons{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+hr{
+    width: 84%;
+    color: white;
+    margin-top: 14px;
+}
+
+.details p{
+    text-align: left;
+    color: rgb(176, 175, 175);
+    font-size: 0.8rem;
+}
+
+.details .location{
+    color: white;
+}
+
+.email-address{
+    color: white;
+    font-size: 0.8rem;
+}
+
+.email-icon:hover{
+    color:rgb(124, 57, 124);
+}
+
+.email-address:hover{
+    color: rgb(124, 57, 124);
+}
+.cv-download:hover{
+    color: rgb(124, 57, 124);
+}
+
+.cv-download{
+    color: white;
+    font-size: 0.8rem;
+}
+
+.details{
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+.download-icon:hover{
+    color: rgb(124, 57, 124);
+}
+
+
+@media screen and (max-width: 767px) {
+    .details p{
+        text-align: left;
+        color: rgb(176, 175, 175);
+        font-size: 1rem;
+    }
+
+    .email-address{
+        color: white;
+        font-size: 1rem;
+    }
+
+    .profile-info{
+        height: 520px;
+    }
+
+    .details{
+        padding-top: 2px;
+    }
+
+    .social-icons{
+    padding-top: 10px;
+    }
+
+  }
+
+  @media (min-width: 768px) and (max-width: 991.98px) { 
+    .details p{
+        text-align: left;
+        color: rgb(176, 175, 175);
+        font-size: 1rem;
+    }
+
+    .email-address{
+        color: white;
+        font-size: 1.1rem;
+    }
+    .cv-download{
+        color: white;
+        font-size: 1.1rem;
+    }
+
+    .profile-info{
+        height: 520px;
+    }
+
+    .details{
+        padding-top: 2px;
+    }
+
+    .social-icons{
+    padding-top: 10px;
+    }
+
+    .name-bio p{
+        font-size: 1.2rem;
+    }
+
+    .name-bio h4{
+        font-size: 1.6rem;
+    }
+
+    .profile-info{
+        height: 580px;
+    }
+
+   }
+
+   @media (min-width: 992px) and ( max-width: 1199.98px ) { 
+    .profile-img-container{
+        width: 150px;
+        height: 150px;
+        border-radius: 60px ;
+        background-color: #1D1E24;
+        position: relative;
+        border: 8px solid #23262b;
+        box-shadow: -4px 8px 20px rgba(0,0,0,.07);
+        z-index: 1;
+        top: 0%;
+        left:-32%
+    }
+
+    
+    .navbar{
+        position: fixed;
+        top: 0%;
+        width: 100%;
+        height: 0vh;
+        background-color: #23262B;
+        z-index: 2;
+    
+    }
+
+    .name-bio h4{
+        text-align: left;
+        margin-left: 22%;
+        margin-top: 5px;
+    }
+
+    .profile-info p{
+        text-align: left;
+        margin-left: 22%;
+        font-size: 0.9rem;
+    }
+
+    hr{
+        display: none;
+    }
+
+    .social-icons{
+        width: 14%;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 22%;
+        margin-top: 20px;
+    }
+
+    .profile-info{
+        width: 82%;
+        height: 280px;
+        position: absolute;
+        left: 8%;
+        top: 8%;
+        border: 8px solid #23262b;
+    }
+
+    .email{
+        position: absolute;
+        left: 56%;
+        top: 0%;
+        width: 1%;
+        height: 10px;
+    }
+
+
+    .place{
+        position: absolute;
+        left: 49.5%;
+        top: 30%;
+        width: 30%;
+    }
+
+    .cv{
+        position: absolute;
+        left: 56%;
+        top: 55%;
+        width: 1%;
+    }
+
+    .title{
+        padding-top: 0;
+    }
+
+    
+    
+    }
+
+    @media (min-width: 1200px) { 
+        .profile-img-container{
+            width: 150px;
+            height: 150px;
+            border-radius: 60px ;
+            background-color: #1D1E24;
+            position: relative;
+            border: 8px solid #23262b;
+            box-shadow: -4px 8px 20px rgba(0,0,0,.07);
+            z-index: 1;
+            top: 0%;
+            left:-32%
+        }
+    
+        .navbar{
+            position: fixed;
+            top: 0%;
+            width: 100%;
+            height: 0vh;
+            background-color: #23262B;
+            z-index: 2;
+        
+        }
+    
+        .name-bio h4{
+            text-align: left;
+            margin-left: 22%;
+            margin-top: 5px;
+            margin-bottom: -10px;
+            font-size: 2rem;
+        }
+
+        .profile-info{
+            margin-bottom: -10px
+        }
+    
+        .profile-info p{
+            text-align: left;
+            margin-left: 22%;
+            font-size: 0.9rem;
+        }
+    
+        hr{
+            display: none;
+        }
+    
+        .social-icons{
+            width: 10%;
+            display: flex;
+            justify-content: space-between;
+            margin-left: 22%;
+            margin-top: 20px;
+        }
+    
+        .profile-info{
+            width: 82%;
+            height: 280px;
+            position: absolute;
+            left: 8%;
+            top: 8%;
+            border: 8px solid #23262b;
+
+        }
+
+        .detail{
+            margin-bottom: -3px;
+            font-weight: 600;
+        }
+
+        
+    
+        .email{
+            position: absolute;
+            left: 56%;
+            top: 0%;
+            width: 1%;
+        }
+
+        .email-address{
+            margin-left: 3px;
+        }
+
+        .cv-download{
+            margin-left: 2px;
+        }
+    
+    
+        .place{
+            position: absolute;
+            left: 49.5%;
+            top: 30%;
+            width: 30%;
+        }
+
+        .location{
+            margin-top: -12px;
+        }
+    
+        .cv{
+            position: absolute;
+            left: 56%;
+            top: 58%;
+            width: 1%;
+        }
+
+        .email-icon{
+            color: white;
+            font-size: small;
+            position: absolute;
+            margin-left: 170px;
+            margin-top: -19.5px
+        }
+
+        .download-icon{
+            color: white;
+            font-size: small;
+            position: absolute;
+            margin-left: 68px;
+            margin-top: -19.5px;
+        }
+        
+     }
+
+   
+  

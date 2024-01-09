@@ -1,0 +1,38 @@
+/* BlogCard.css */
+.blog-card {
+    width: 86%;
+    border: 2px solid #aca8c2 ;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .blog-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .blog-content {
+    padding: 14px;
+  }
+  
+  .blog-name {
+    font-size: 1.2rem;
+    margin-bottom: 8px;
+  }
+  
+  .blog-description {
+    color: #d6d4e0 ;
+    margin-bottom: 12px;
+  }
+  
+  .blog-link {
+    display: block;
+    color: #d6d4e0;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  

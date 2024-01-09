@@ -1,0 +1,196 @@
+.navbar{
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    height: 8vh;
+    background-color: #23262B;
+    z-index: 2;
+
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    
+}
+
+.nav-link p{
+text-align: center;
+font-size: 0.7rem;
+margin: 0;
+}
+
+.nav-icon {
+    
+    color: rgb(168, 168, 168); 
+    font-size: 24px; 
+    padding-top: 8px;  
+  }
+
+  .nav-links p{
+    color: rgb(168, 168, 168);
+    font-size: 11px
+  }
+
+  .home{
+    padding-left: 2px;
+  }
+
+ .resume{
+    padding-left: 7px;
+ }
+
+ .portfolio{
+    padding-left: 8px;
+ }
+
+ .contact{
+    padding-left: 10px;
+ }
+
+.nav-links .nav-link p {
+  display: block; /* Show text for all links on larger screens */
+  font-size: 0.7rem;
+}
+ /* Media Queries */
+
+ @media screen and (max-width: 767px) {
+   .navbar{
+      position: fixed;
+      top: 0%;
+      width: 100%;
+      height: 8vh;
+      background-color: #23262B;
+      z-index: 2;
+  
+  }
+  
+  .nav-links{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      
+  }
+  
+  .nav-link p{
+  text-align: center;
+  font-size: 0.7rem;
+  margin: 0;
+  }
+  
+  .nav-icon {
+      
+      color: rgb(168, 168, 168); 
+      font-size: 24px; 
+      padding-top: 8px;  
+      
+    }
+  
+    .nav-links p{
+      color: rgb(168, 168, 168);
+      font-size: 11px
+    }
+  
+    .home{
+      padding-left: 2px;
+    }
+  
+   .resume{
+      padding-left: 7px;
+   }
+  
+   .portfolio{
+      padding-left: 8px;
+   }
+  
+   .contact{
+      padding-left: 10px;
+   }
+ }
+ 
+  
+ @media (min-width: 768px) and (max-width: 991.98px) { 
+   .nav-link p{
+      text-align: center;
+      font-size: 1rem;
+      margin: 0;
+      }
+
+  }
+
+  @media (min-width: 992px) {
+
+   .nav-links {
+     display: flex;
+     flex-direction: column;
+    justify-content: space-between;
+     align-items: center; /* Center items horizontally */
+     position: fixed;
+     top: 4%;
+     border-radius: 20px;
+     bottom: 50%;
+     left: 5px;
+     height: 85vh; /* Full height of the viewport */
+     width: 80px; /* Adjust as needed */
+     background-color: #0c0d0f;
+     padding:20px;
+   }
+ 
+   .nav-link {
+     text-align: center;
+     padding: 20px 0; /* Adjust as needed */
+     width: 100%;
+     box-sizing: border-box; /* Include padding in the total width */
+   }
+ 
+   .nav-icon {
+     margin-bottom: 10px; /* Adjust as needed */
+     
+   }
+ 
+  
+
+   .nav-item {
+    transition: background-color 0.3s;
+  }
+
+  .nav-item:hover,
+  .nav-item.active {
+    background-color: purple;
+  }
+  
+  
+ 
+   .nav-links .nav-link p {
+     display: block; /* Show text for all links on larger screens */
+     font-size: 0.9rem;
+   }
+
+   .portfolio{
+    padding-left: 0px;
+ }
+
+ .resume{
+  padding-left: 0px;
+  background-color: transparent
+}
+
+ .contact{
+  padding-left: 0px;
+}
+
+.nav-item{
+  
+  border-radius: 20px;
+  padding: 10px;
+  background-color: #1D1E24;;
+}
+
+.nav-item p{
+  margin-top: -10px;
+}
+
+
+ }
