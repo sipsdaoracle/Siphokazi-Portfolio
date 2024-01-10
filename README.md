@@ -1,4 +1,4 @@
-# Siphokazi Portfolio
+# Siphokazi DevOps Portfolio
 
 
 ## Table of Contents
